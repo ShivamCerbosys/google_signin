@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_signin/firebase_options.dart';
-// import 'firebase_options.dart';
 import 'package:google_signin/pages/homepage.dart';
 
 void main() async {

@@ -48,6 +48,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget _userInfo() {
+    print(_user!);
     return SizedBox(
       width: MediaQuery.of(context).size.width,
       child: Column(
@@ -66,6 +67,7 @@ class _HomePageState extends State<HomePage> {
           ),
           Text(_user!.email!),
           Text(_user!.displayName ?? ""),
+          // Text(_user!.phoneNumber ?? "nahi hai number"),
           MaterialButton(
             color: Colors.red,
             onPressed: _auth.signOut,
